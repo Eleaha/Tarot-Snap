@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#board{
+    margin: auto;
+    background-color: pink;
+    width: 90%;
+}
+
+
+.card img{
+    height: 250px;
+ box-sizing:content-box;
+ 
+}
+
+#play-cards{
+    /* display: grid;
+    grid-template-columns: repeat(8, 1fr); */
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
